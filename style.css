@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700&display=swap');
+
+
+:root{
+    --pnk-color: hsl(333, 80%, 67%);
+    --dark-mag-color: hsl(300, 43%, 22%);
+    --dark-grey-mag-color: hsl(303, 10%, 53%);
+    --light-grey-mag-color: hsl(300, 24%, 96%);
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background:  url(bg-pattern-top-mobile.svg) no-repeat top left,url(bg-pattern-bottom-mobile.svg) no-repeat bottom right;
+
+    position: relative;
+}
+
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+
+.container-11 > h1{
+    color: var(--dark-mag-color);
+}
+
+
+.review{
+    background-color: var(--light-grey-mag-color);
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.stars{
+    padding-top: 5px;
+}
+
+.review > p{
+    color: var(--dark-mag-color);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+
+section{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+section > div{
+    display: flex;
+}
+
+section > div > div{
+    margin-left: 15px;
+}
+
+.aang{
+    margin-top: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.pinky{
+    font-size: 13px;
+    color: var(--pnk-color);
+    margin-top: -10px;
+}
+
+section > p{
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    body{
+        font-size: 15px;
+        background:  url(bg-pattern-top-desktop.svg) no-repeat top left,url(bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main{
+        width: 80%;
+        margin: 10% 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-1{
+        flex-basis: 50%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .container-11{
+        text-align: left;
+        flex-basis: 45%;
+    }
+    .container-11 > p{
+        font-size: 18px;
+    }
+
+    .container-12{
+        flex-basis: 55%;
+    }
+    .review > p{
+        font-size: 16px;
+    }
+
+    #review-1{
+        width: 100%;
+    }
+
+    #review-2{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    #review-3{
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .container-2{
+        flex-basis: 50%;
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+        justify-content: space-between;
+        
+    }
+
+    #comment-2{
+        position: relative;
+        top: 20px;
+    }
+
+    #comment-3{
+        position: relative;
+        top: 40px;
+    }
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    body{
+        font-size: 15px;
+        background:  url(bg-pattern-top-desktop.svg) no-repeat top left,url(bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main{
+        width: 90%;
+        margin: 13% 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-1{
+        flex-basis: 50%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .container-11{
+        text-align: left;
+        flex-basis: 45%;
+    }
+
+    .container-11 >h1{
+        font-size: 45px;
+    }
+    .container-11 > p{
+        font-size: 25px;
+    }
+
+    .container-12{
+        flex-basis: 55%;
+    }
+    .review > p{
+        font-size: 25px;
+    }
+
+    #review-1{
+        width: 100%;
+    }
+
+    #review-2{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    #review-3{
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .container-2{
+        flex-basis: 50%;
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+        justify-content: space-between;
+        
+    }
+
+
+    section{
+        font-size: 25px;
+    }
+
+    #comment-2{
+        position: relative;
+        top: 20px;
+    }
+
+    #comment-3{
+        position: relative;
+        top: 40px;
+    }
+
+    .aang{
+        width: 100px;
+        height: 100px;
+    }
+
+    .pinky{
+        font-size: 22px;
+    }
+}
+
+
