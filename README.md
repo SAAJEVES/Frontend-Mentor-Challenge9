@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+# Frontend Mentor - Social proof section solution
 
-You can use the [editor on GitHub](https://github.com/SAAJEVES/Frontend-Mentor-Challenge9/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of contents
 
-### Markdown
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Overview
 
-- Bulleted
-- List
+### The challenge
 
-1. Numbered
-2. List
+- Build out the project to the designs provided
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Links
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### Jekyll Themes
+## My process
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SAAJEVES/Frontend-Mentor-Challenge9/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Built with
 
-### Support or Contact
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Positioning
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+### What I learned
+
+Finally learnt the position values ie relative, absolute, fixed and sticky. How and when they can be used in a web page.
+
+
+
+### Continued development
+
+Making web pages responsive.
+
+### Useful resources
+
+A lot of resources was helpful not just in this project but from the beginning of my learning of web development.
+- (https://www.w3schools.com) 
+
+- (https://www.freecodecamp.com)
+
+- (https://www.youtube.com)
+
+- And lots more. Surely, I will always recommend them days in and days out
+
+
+
+## Author
+
+- Github - (https://github.com/SAAJEVES)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/SAAJEVES)
+- Twitter - (https://www.twitter.com/saajeves)
+- LinkedIn - (https://www.linkedin.com/in/samuel-ajagun-020283150)
+
+
+## Acknowledgments
+
+I would love to acknowledge a very good friend of mine (https://github.com/wisdomosara) for his immense contribution on helping me in this project. You are well appreciated.
